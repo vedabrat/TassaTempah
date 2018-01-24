@@ -1,20 +1,16 @@
 Rails.application.routes.draw do
-  get 'landing/index'
-  root 'landing#index'
+  get 'welcome/index'
 
-  get 'landing/home'
+  get 'welcome/contactus'
 
-  get 'landing/services'
+  get 'welcome/services'
 
-  get 'landing/aboutus'
+  get 'welcome/quote'
 
-  get 'landing/events'
+  get 'welcome/plans'
 
-  get 'landing/plans'
-
-  get 'landing/team'
-
-  get 'landing/contactus'
+  get 'welcome/bookings'
+  root 'welcome#index'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
