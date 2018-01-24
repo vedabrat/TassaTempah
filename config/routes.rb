@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'welcome/index'
+  # get 'welcome/index'
 
   get 'welcome/contactus'
 
@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   resources :charges
 
   get 'welcome/bookings'
-  root 'welcome#index'
+  root 'welcome#services'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

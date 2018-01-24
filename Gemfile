@@ -11,6 +11,7 @@ gem 'rails', '~> 5.1.4'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 gem 'pg'
+gem 'bootstrap-sass'
 gem 'devise'
 gem 'stripe'
 gem 'figaro'
