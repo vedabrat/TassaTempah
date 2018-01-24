@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get 'welcome/quote'
 
   get 'welcome/plans'
+  resources :charges
 
   get 'welcome/bookings'
   root 'welcome#index'

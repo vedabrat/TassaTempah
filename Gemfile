@@ -13,6 +13,7 @@ gem 'puma', '~> 3.7'
 gem 'pg'
 gem 'devise'
 gem 'stripe'
+gem 'figaro'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
