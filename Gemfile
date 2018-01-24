@@ -29,12 +29,13 @@ gem 'jbuilder', '~> 2.5'
 gem 'jquery-rails'
 gem 'figaro'
 gem 'stripe'
+# Use Puma as the app server
+gem 'puma'
+gem 'rails_12factor' 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 group :production do
   gem "pg"
-  # Use Puma as the app server
-  gem 'puma'
 
 end
 
