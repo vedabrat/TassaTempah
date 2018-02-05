@@ -1,0 +1,64 @@
+<h3>Profile Details</h3>
+	<form action="https://getsimpleform.com/messages?form_api_token=b3a753b8a8f9dd973108208981f54524" method="post">
+		<div>
+			<span><label>Name</label></span>
+			<span><input name="name" type="text" class="textbox"></span>
+		</div>
+		<div>
+			<span><label>E-mail</label></span>
+			<span><input name="email" type="text" class="textbox"></span>
+		</div>
+		<div>
+			<span><label>Mobile</label></span>
+			<span><input name="mobile" type="text" class="textbox"></span>
+		</div>
+		<div>
+			<span><label>Business Name</label></span>
+			<span><input name="business_name" type="text" class="textbox"></span>
+		</div>
+		<div>
+			<span><label>Street Address</label></span>
+			<span><input name="address" type="text" class="textbox"></span>
+		</div>
+		<div>
+			<span><label>Apartment/Suite #</label></span>
+			<span><input name="suite" type="text" class="textbox"></span>
+		</div>
+		<div>
+			<span><label>Country</label></span>
+			<span><input name="country" type="text" class="textbox"></span>
+		</div>
+
+		<div>
+			<span><label>City</label></span>
+			<span><input name="city" type="text" class="textbox"></span>
+		</div>
+		<div>
+			<span><label>Province</label></span>
+			<span><input name="province" type="text" class="textbox"></span>
+		</div>
+		<div>
+			<span><label>Zip Code</label></span>
+			<span><input name="zip" type="text" class="textbox"></span>
+		</div>
+		<!-- <div>
+			<span><label>Subject</label></span>
+			<span><textarea name="userMsg"> </textarea></span>
+		</div> -->
+	 <div>
+			<span><input type="submit" value="Submit"></span>
+	</div>
+</form>
+<br>
+<br>
+<br>
+<h2>Quote Management<h2>
+<%= link_to "New Quote", welcome_req_quote_path %>
+<br>
+<%= link_to "Status of pending/open orders", welcome_man_quote_path %>
+<br>
+<%= link_to "Completed Orders", welcome_completedorders_path %>
+
+<br>
+<br>
+<br>

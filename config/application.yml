@@ -7,5 +7,9 @@
 # stripe_publishable_key: pk_test_ro9jV5SNwGb1yYlQfzG17LHK
 #
 # production:
-#   stripe_api_key: sk_live_EeHnL644i6zo4Iyq4v1KdV9H
-#   stripe_publishable_key: pk_live_9lcthxpSIHbGwmdO941O1XVU
+  PUBLISHABLE_KEY: pk_live_vbAwzXNrvGG6WHhfsZZO4Zxo
+  SECRET_KEY: sk_live_NCXco6ZPt18PuXv0PWPrGU2j
+
+ # local stripe test keys:
+  # PUBLISHABLE_KEY: pk_test_faT6355vnEePi7qrutYzoeKe
+  # SECRET_KEY: sk_test_TN9n3qEgJv8DzxVih7eYd2pY

@@ -1,0 +1,46 @@
+
+
+<h2><h1> <p style="margin-bottom: 0in; line-height: 100%">Ambot Automation.com
+– Custom Control Panels Made to Order<br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%">To expedite your
+panel</p>
+<p style="margin-bottom: 0in; line-height: 100%">1. Register as a
+user (below)</p>
+<p style="margin-bottom: 0in; line-height: 100%">2. Fill out your
+profile</p>
+<p style="margin-bottom: 0in; line-height: 100%">3. Click “New
+Quote”</p>
+<p style="margin-bottom: 0in; line-height: 100%">4. Give it a day. We review your panel personally.</p>
+<p style="margin-bottom: 0in; line-height: 100%">5. After your paid confirmation, get your panel in as short as one week! .</p>
+</h1></h2>
+
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+  <div class="field">
+    <%= f.label :email %><br />
+    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :password %><br />
+    <%= f.password_field :password, autocomplete: "off" %>
+  </div>
+
+  <% if devise_mapping.rememberable? -%>
+    <div class="field">
+      <%= f.check_box :remember_me %>
+      <%= f.label :remember_me %>
+    </div>
+  <% end -%>
+
+  <div class="actions">
+    <%= f.submit "Log in" %>
+  </div>
+<% end %>
+
+<%= render "users/shared/links" %>

@@ -1,0 +1,112 @@
+
+<h1>New Quote</h1>
+<p>
+<form action="https://getsimpleform.com/messages?form_api_token=b3a753b8a8f9dd973108208981f54524" method="post">
+  <div>
+    <span><label>Upload Schematics</label></span>
+    <span><button name="schematics">Choose files to upload </button></span>
+  </div>
+  <div>
+    <span><label>Select Panel Size</label></span>
+    <span>
+      <select name="sizes">
+        <option value="1x1">1x1</option>
+        <option value="2x2">2x2</option>
+        <option value="3x3">3x3</option>
+        <option value="4x4">4x4</option>
+        <option value="5x5">5x5</option>
+        <option value="6x6">6x6</option>
+        <option value="7x7">7x7</option>
+        <option value="8x8">8x8</option>
+        <option value="9x9">9x9</option>
+        <option value="10x10">10x10</option>
+      </select>
+    </span>
+  </div>
+  <div>
+    <span><label>Parts Selection</label></span>
+    <span>
+      <br>Fusing or CB
+      <select name='fusing or CB '>
+        <option value="1pole">1 pole</option>
+        <option value="2pole">2 pole</option>
+        <option value="3pole">3 pole</option>
+      </select>
+      <br>Contactors
+      <select name='contactors'>
+        <option value="0-50A">0-50A</option>
+        <option value="60-150A">60-150A</option>
+        <option value="200A+">200A +</option>
+      </select>
+      <br>Relays
+      <select name='relays'>
+        <option value="2polerelay">2 pole relay</option>
+        <option value="forceguided">forceguided</option>
+        <option value="safetyrelays">safety relays</option>
+      </select>
+      <br>Transformer
+      <select name='transformer '>
+        <option value="50-1000VA">50-1000 VA</option>
+        <option value="1500-3KVA">1500-3KVA</option>
+      </select>
+      <!-- <br> -->
+      <!-- <select name='power supply'>
+      </select> -->
+      <br>PLC
+      <select name='plc'>
+        <option value="mainunitandpowersupply">main unit and power supply</option>
+        <option value="digInOut16pt">digital - input / output  (16pt)   (omron)</option>
+        <option value="analInOut4pt">analog - inout / output  (4pt)</option>
+      </select>
+      <br>VFDS
+      <select name='vfds'>
+        <option value="analInOut4pt2">analog - inout / output  (4pt)</option>
+      </select>
+      <br>Special Device or Custom Modification
+      <select name='special device or custom modification'>
+        <option value="LAYOUTOFENCLOSUREANDDOOR">LAYOUT OF ENCLOSURE AND DOOR</option>
+      </select>
+      <br>Pilot Device
+      <select name='pilotDevice(pushbuttonsswlight)'>
+        <option value="1-10 devices">1-10 devices</option>
+        <option value="each additional device">each additional device</option>
+        <option value="hmi">hmi</option>
+        <option value="cable glands">cable glands</option>
+        <option value="external connection quick connect">external connection quick connect</option>
+        <option value="PUNCH MOUNT AND WIRE EXTERNAL COMPONENTS">PUNCH MOUNT AND WIRE EXTERNAL COMPONENTS</option>
+        <option value="pilot device  (pushbutton, ssw, light)">pilot device  (pushbutton, ssw, light)</option>
+        <option value="per device">per device</option>
+        <option value="hmi">hmi</option>
+        <option value="cable glands">cable glands</option>
+        <option value="external connection quick connect">external connection quick connect</option>
+        <option value="1-10 poles">1-10 poles</option>
+        <option value="12-16 poles">12-16 poles</option>
+        <option value="cooling fanintake filter">cooling fan /intake filter</option>
+      </select>
+
+      <!-- <input name="parts" type="text" class="textbox"></span> -->
+  </div>
+  <div>
+    <span><label>Requested Completion Date</label></span>
+    <span>
+      <select name="RTTC">
+        <option value="4to6">4-6 weeks</option>
+        <option value="3to4">3-4 weeks</option>
+        <option value="2to3">2-3 weeks</option>
+        <option value="1to2">1-2 weeks</option>
+        <option value="1week">within 1 week</option>
+      </select>
+    </span>
+  </div>
+  <div>
+    <span><label>Upload Pictures of Onhand Parts</label></span>
+    <span><button name="onhandparts">Choose files to upload </button></span>
+  </div>
+
+ <div>
+    <span><input type="submit" value="Submit"></span>
+</div>
+</form>
+
+<%= link_to "Completed Quote", welcome_reqcomplete_path %>
+<br><br><br><br>
