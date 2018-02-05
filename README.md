@@ -1,24 +1,9 @@
-# README
+# This is the Codebasee for TassaTempah
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+TassaTempah is a NJ based tassa group.
 
-Things you may want to cover:
+The purpose of this webpage is to provide a venue for TassaTempah's managers
 
-* Ruby version
+to receive booking requests, display media, and inform where their appearances will be.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Still heavily under development.
